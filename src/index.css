@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  font-family: sans-serif;
+}
+
+
+main{
+  height: calc(100vh - 30px - 50px);
+  background: whitesmoke;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
